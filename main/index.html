@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assest/css/base.css">
-  <link rel="stylesheet" href="./assest/css/main.css">
-  <link rel="stylesheet" href="./assest/fonts/fontawesome-free-6.1.1-web/css/all.css">
+  <link rel="stylesheet" href="/assest/css/base.css">
+  <link rel="stylesheet" href="/assest/css/main.css">
+  <link rel="stylesheet" href="/assest/fonts/fontawesome-free-6.1.1-web/css/all.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,49 +19,86 @@
       <div class="grid">
         <nav class="header__navbar">
           <ul class="header__navbar-list">
-             <li class="header__navbar-item header__navbar-item--has-qr  header__navbar-item--separate">
-              Vào cửa hàng trên ứng dụng F8-shop</li>
+             <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+              Vào cửa hàng trên ứng dụng F8-shop
               <!-- Header QR code -->
               <div class="header__qr">
-                <img src="./assest/img/QRcode.png" alt="QR code" class="header_qr-img">
+                <img src="/assest/img/QRcode.png" alt="QR code" class="header__qr-img">
                 <div class="header__qr-apps">
                   <a href="" class="header__qr-link">
-                  <img src="./assest/img/googleplay.png" alt="Google play" class="header__qr-download-img">
-
+                    <img src="/assest/img/applestore.png" alt="applestore" class="header__qr-download-img">
                   </a>
                   <a href="" class="header__qr-link">
-                  <img src="./assest/img/applestore.png" alt="App Store" class="header__qr-download-img">
-
+                    <img src="/assest/img/googleplay.png" alt="googleplay" class="header__qr-download-img">
                   </a>
+                  
                 </div>
               </div>
+            </li> 
              <li class="header__navbar-item">
-              <span class="header__navbar-title--no-pointer">Kết nối</span>
-            <a href="https://www.facebook.com/profile.php?id=100013440125094" class="header__navbar-icon-link">
-              <i class="header__navbar-icon  fab fa-facebook"></i>
-            </a>
-            <a href="" class="header__navbar-icon-link">
-              <i class="header__navbar-icon  fab fa-instagram"></i>
-            </a>
+              <span class="header__navbar-title--no-pointer">
+                Kết nối
+                <a href="" class="header__navbar-icon-link">
+                  <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                </a>
+                <a href="" class="header__navbar-icon-link">
+                  <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                </a>
+              </span>
             </li>
           </ul>
           <ul class="header__navbar-list">
             <li class="header__navbar-item">
-              <a href="" class="header__navbar--link">
-                <a href="" class="header__navbar-icon-bell">
-                  <i class="header__navbar-icon  fa-solid fa-bell"></i></a>
-                Thông báo</a>
-              
+              <a href="" class="header__navbar-item-link">
+                <i class="header__navbar-icon fa-solid fa-bell"></i>
+                Thông báo
+              </a>
+              <div class="header__notify">
+                <header class="header__notify-header">
+                  <h3>Thong bao moi nhan</h3>
+                </header>
+                <ul class="header__notify-list">
+                  <li class="header__notify-item header__notify-item--viewed">
+                     <a href="" class="header__notify-link">
+                      <img src="/assest/img/0ca0964de231d3b7c4f33d61655cd4ba.jpg" alt="" class="header__notify-img">
+                      <div class="header__notify-info">
+                        <span class="header__notify-name">My pham Ohui chinh hang</span>
+                        <span class="header__notify-decription">Mo ta my pham</span>
+                      </div>
+                     </a> 
+                  </li>
+                  <li class="header__notify-item">
+                    <a href="" class="header__notify-link">
+                     <img src="/assest/img/0ca0964de231d3b7c4f33d61655cd4ba.jpg" alt="" class="header__notify-img">
+                     <div class="header__notify-info">
+                       <span class="header__notify-name">My pham Ohui chinh hang</span>
+                       <span class="header__notify-decription">Mo ta my pham</span>
+                     </div>
+                    </a> 
+                 </li>
+                 <li class="header__notify-item">
+                  <a href="" class="header__notify-link">
+                   <img src="/assest/img/0ca0964de231d3b7c4f33d61655cd4ba.jpg" alt="" class="header__notify-img">
+                   <div class="header__notify-info">
+                     <span class="header__notify-name">My pham Ohui chinh hang</span>
+                     <span class="header__notify-decription">Mo ta my pham</span>
+                   </div>
+                  </a> 
+               </li>
+                </ul>
+                <footer class="header__notify-footer">
+                  <a href="" class="header__notify-footer-btn">Xem tat ca</a>
+                </footer>
+              </div>
             </li>
             <li class="header__navbar-item">
-              <a href="" class="header__navbar--link">
-                <a href="" class="header__navbar-icon-help">
-                  <i class="header__navbar-icon fa-solid fa-circle-question"></i></a>
-                Trợ giúp</a>
+              <a href="" class="header__navbar-item-link">
+                <i class="header__navbar-icon fa-solid fa-question"></i>
+                Trợ giúp
+              </a>
             </li>
             <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng kí </li>
             <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
-
           </ul> 
 
         </nav>
