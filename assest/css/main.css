@@ -20,6 +20,9 @@
   position: relative;
   min-height: 26px;
 }
+.header__navbar-item--viewed{
+  background-color: rgba(238,75,43,0.08);
+}
 
 .header__navbar-item--has-qr:hover .header__qr{
   display: block;
@@ -184,6 +187,7 @@
   width: 100%;
   padding: 12px;
   text-decoration: none;
+  /* background-color: rgba(278,75,43,0.1); */
 }
 .header__notify-img{
   width: 48px;
