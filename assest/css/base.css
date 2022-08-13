@@ -5,6 +5,13 @@
   --black--color:#000;
   --text--color:#333;
   --boder-color:#dbdbdb;
+  --header-height:120px;
+  --navbar-height: 34px;
+
+
+  --header-with-search-height: calc(var(var(--header-height) - var(--navbar-height)))
+
+
 }
 
 *{
