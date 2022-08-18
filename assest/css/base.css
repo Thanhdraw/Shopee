@@ -7,6 +7,7 @@
   --boder-color:#dbdbdb;
   --header-height:120px;
   --navbar-height: 34px;
+  --star-gold-color:#ffce3e;
 
 
   --header-with-search-height: calc(var(var(--header-height) - var(--navbar-height)))
@@ -47,19 +48,25 @@ html{
 .grid__row{
   display: flex;
   flex-wrap: wrap;
-  margin-left: -12px;
-  margin-right: -12px;
+  margin-left: -5px;
+  margin-right: -5px;
 }
 
 .grid__column-2{
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
   width: 16.6667%;
 
 }
+.grid__column-2-4{
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 20%;
+}
+
 .grid__column-10{
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
   width: 83.3334%;
 }
 
