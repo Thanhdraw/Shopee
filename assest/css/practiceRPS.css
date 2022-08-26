@@ -1,0 +1,33 @@
+@media only screen {
+    h1{
+        color: red;
+    }
+}
+
+/* Print */
+@media only print {
+    h1{
+        color: red;
+    }
+}
+/* kết hợp với MediaFeature */
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+  
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+    
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px){
+    
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px){
+    
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px){
+    
+}
